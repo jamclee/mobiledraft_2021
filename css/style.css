@@ -177,7 +177,7 @@ p{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 600px;
+    background-size: cover;
     color: white;
 }
 
