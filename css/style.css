@@ -1,0 +1,273 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    font-size: 18px;
+    font-family: "Nunito Sans", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.title{
+    background-color: #2e2e2e;
+    font-family: "Euphoria Script", "sans-serif";
+    font-size: 1.25em;
+    color: rgb(231, 205, 205);
+    padding: 20px;
+}
+
+h1{
+    font-size: 2em;
+    line-height: 1;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.headshot img{
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.wharton_content, .wf_content, .remote_hires_content{
+    padding: 20px;
+    margin-top: 210px;
+    min-height: 90vh;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    min-height: 80vh;
+    background-image: url("../images/portrait_3.PNG"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 20vh;
+}
+
+.welcome h2{
+    font-size: 1em;
+    margin-top: 10px;
+    color: rgb(177, 4, 4);
+}
+
+.welcome_text{
+    position: fixed;
+    z-index: -1;
+}
+
+.skills{
+    background-color: #585858;
+    color: white;
+    font-size: .8em;
+}
+
+.research_images img, .design_images img{
+    display: grid;
+    max-width: 100%;
+    height: auto;
+}
+
+.skills p{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.welcome, .bio_container, .contact, .skills{
+    padding: 20px;
+}
+
+nav li{
+    line-height: 1.25;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(238, 238, 238);
+    padding: 20px 0;
+}
+
+.current{
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+}
+
+#myLinks{
+    display: none;
+}
+
+.container, .bio_container, .contact{
+    margin-top: 212px;
+}
+
+.youtube_music, .winning_futures, .remote_hires, .wharton, .rta{
+    padding: 50px;
+}
+
+/* .youtube_music p, .winning_futures p, .remote_hires p, .wharton p, .rta p{
+    padding: 10px 0;
+} */
+
+.youtube_music{
+    background-image: url("../images/youtube_music_3.jpg"); 
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    /* background-size: contain; */
+    color: white;
+}
+
+.winning_futures{
+    background-image: url("../images/winning_futures_2.png"); 
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: contain;
+    color: black;
+    background-color: white;
+}
+
+.remote_hires{
+    background-image: url("../images/paper_prototype_3.png"); 
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    /* background-size: contain; */
+    background-size: cover;
+    color: white;
+}
+
+.wharton{
+    background-image: url("../images/wharton_mouseflow_3.png"); 
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: contain;
+    color: black;
+    background-color: white;
+}
+
+.rta{
+    background-image: url("../images/rta_3.png"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 600px;
+    color: white;
+}
+
+.rta a{
+    color: rgb(231, 205, 205);
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.learn_more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height: 2em;
+    text-align: center;
+    margin-top: 20px;
+    /* border: solid black 2px; */
+    box-shadow: 2px 2px rgb(139, 139, 139);
+    background-color: rgb(177, 4, 4);
+    padding: 5px 0 5px 0;
+    border-radius: 10px;
+}
+
+.winning_futures a, .remote_hires a, .wharton a, .bio a{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.contact{
+    min-height: 61vh;
+}
+
+.note h1{
+    font-size: 1.5em;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    font-size: 0.8em;
+}
+
+footer h1, footer h2{
+    font-size: 1em;
+    padding: 10px;
+}
+
+footer p{
+    padding: 10px;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+#social img{
+    size: 20px;
+    border: none;
+    margin-right: 10px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+  
+nav a:hover{
+    text-decoration: underline;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
